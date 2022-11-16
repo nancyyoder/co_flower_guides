@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Colorado Blue Columbine",
+        "binomial": "Aquilegia coerulea",
+        "colors": ["Pale Blue", "White", "Yellow"],
+        "shapes": ["Star", "Buttercup"],
+        "states": ["Colorado", "Idaho", "Montana", "Wyoming", "New Mexico", "Utah"],
+        "smells": ["Honeysuckle"],
+        "id": 1001,
+        "isFavorite": true,
+        "imageName": "columbine",
+        "backgroundImageName": "rockyMountains"
+    },
+    
+    {
+        "name": "Arrowleaf Balsamroot",
+        "binomial": "Balsamorhiza sagittata",
+        "colors": ["Yellow", "Orange", "Brown"],
+        "shapes": ["Arrow"],
+        "states": ["Colorado", "Arizona", "California", "South Dakota"],
+        "smells": ["Chocolate", "Balsamroot"],
+        "id": 1002,
+        "isFavorite": true,
+        "imageName": "arrowhead",
+        "backgroundImageName": "blackHills"
+    },
+    
+    {
+        "name": "Blanketflower",
+        "binomial": "Gaillardia",
+        "colors": ["Red", "Yellow", "Brown"],
+        "shapes": ["Arrow", "Trumpet"],
+        "states": ["Colorado", "Utah"],
+        "smells": ["Licorice", "Bubblegum"],
+        "id": 1003,
+        "isFavorite": true,
+        "imageName": "blanketflower",
+        "backgroundImageName": "rockyMountains"
+    }
+]
+

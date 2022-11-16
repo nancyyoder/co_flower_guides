@@ -14,6 +14,12 @@
 		347E73D32925795B00BCAF7D /* Colorado_Flower_GuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E73D22925795B00BCAF7D /* Colorado_Flower_GuideTests.swift */; };
 		347E73DD2925795B00BCAF7D /* Colorado_Flower_GuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E73DC2925795B00BCAF7D /* Colorado_Flower_GuideUITests.swift */; };
 		347E73DF2925795B00BCAF7D /* Colorado_Flower_GuideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E73DE2925795B00BCAF7D /* Colorado_Flower_GuideUITestsLaunchTests.swift */; };
+		347E73EC29257B7000BCAF7D /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E73EB29257B7000BCAF7D /* ImageView.swift */; };
+		347E73EE2925828800BCAF7D /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E73ED2925828800BCAF7D /* BackgroundView.swift */; };
+		347E73F0292585BA00BCAF7D /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E73EF292585BA00BCAF7D /* Flower.swift */; };
+		347E73F22925860300BCAF7D /* flowers.json in Resources */ = {isa = PBXBuildFile; fileRef = 347E73F12925860300BCAF7D /* flowers.json */; };
+		347E73F42925868200BCAF7D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E73F32925868200BCAF7D /* ModelData.swift */; };
+		347E73F92925894400BCAF7D /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E73F82925894400BCAF7D /* RowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		347E73D82925795B00BCAF7D /* Colorado Flower GuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Colorado Flower GuideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		347E73DC2925795B00BCAF7D /* Colorado_Flower_GuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorado_Flower_GuideUITests.swift; sourceTree = "<group>"; };
 		347E73DE2925795B00BCAF7D /* Colorado_Flower_GuideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorado_Flower_GuideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		347E73EB29257B7000BCAF7D /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		347E73ED2925828800BCAF7D /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		347E73EF292585BA00BCAF7D /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
+		347E73F12925860300BCAF7D /* flowers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flowers.json; sourceTree = "<group>"; };
+		347E73F32925868200BCAF7D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		347E73F82925894400BCAF7D /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				347E73C12925795700BCAF7D /* Colorado_Flower_GuideApp.swift */,
-				347E73C32925795700BCAF7D /* ContentView.swift */,
+				347E73F52925890100BCAF7D /* Views */,
+				347E73F62925891400BCAF7D /* Model */,
+				347E73F72925892500BCAF7D /* Resources */,
 				347E73C52925795B00BCAF7D /* Assets.xcassets */,
 				347E73C72925795B00BCAF7D /* Preview Content */,
 			);
@@ -125,6 +139,34 @@
 				347E73DE2925795B00BCAF7D /* Colorado_Flower_GuideUITestsLaunchTests.swift */,
 			);
 			path = "Colorado Flower GuideUITests";
+			sourceTree = "<group>";
+		};
+		347E73F52925890100BCAF7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				347E73C32925795700BCAF7D /* ContentView.swift */,
+				347E73EB29257B7000BCAF7D /* ImageView.swift */,
+				347E73ED2925828800BCAF7D /* BackgroundView.swift */,
+				347E73F82925894400BCAF7D /* RowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		347E73F62925891400BCAF7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				347E73EF292585BA00BCAF7D /* Flower.swift */,
+				347E73F32925868200BCAF7D /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		347E73F72925892500BCAF7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				347E73F12925860300BCAF7D /* flowers.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				347E73C92925795B00BCAF7D /* Preview Assets.xcassets in Resources */,
+				347E73F22925860300BCAF7D /* flowers.json in Resources */,
 				347E73C62925795B00BCAF7D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				347E73EC29257B7000BCAF7D /* ImageView.swift in Sources */,
 				347E73C42925795700BCAF7D /* ContentView.swift in Sources */,
+				347E73F92925894400BCAF7D /* RowView.swift in Sources */,
+				347E73F0292585BA00BCAF7D /* Flower.swift in Sources */,
+				347E73EE2925828800BCAF7D /* BackgroundView.swift in Sources */,
 				347E73C22925795700BCAF7D /* Colorado_Flower_GuideApp.swift in Sources */,
+				347E73F42925868200BCAF7D /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

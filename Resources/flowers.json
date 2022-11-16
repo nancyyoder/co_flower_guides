@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Colorado Blue Columbine",
+        "binomial": "Aquilegia coerulea",
+        "colors": ["Pale Blue", "White", "Yellow"],
+        "shapes": ["Star", "Buttercup"],
+        "states": ["Colorado", "Idaho", "Montana", "Wyoming", "New Mexico", "Utah"],
+        "smells": ["Honeysuckle"],
+        "id": 1001,
+        "isFavorite": true,
+        "imageName": "columbine",
+        "backgroundImageName": "rockyMountains"
+    },
+]
+
