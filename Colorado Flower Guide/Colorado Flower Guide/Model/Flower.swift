@@ -8,17 +8,21 @@
 import Foundation
 import SwiftUI
 
-struct Flower: Hashable, Codable {
-    var id: Int
+struct Flower: Hashable, Codable, Identifiable {
     var name: String
-    var binomal: String
-    var colors: [String]
-    var shapes: [String]
-    var states: [String]
-    var smells: [String]
+    var binomial: String
+    var description: String
+    
+    var id: Int
+    var isFavorite: Bool
     
     private var imageName: String
     var image: Image {
         Image(imageName)
+    }
+    
+    private var backgroundImageName: String
+    var backgroundImage: Image {
+        Image(backgroundImageName)
     }
 }

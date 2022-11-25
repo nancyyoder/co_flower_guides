@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct BackgroundView: View {
+    var image: Image
+    
     var body: some View {
-        Image("rockyMountains")
+        image
             .resizable()
             .frame(width: 360, height: 300)
     }
@@ -17,6 +19,6 @@ struct BackgroundView: View {
 
 struct BackgroundView_Previews: PreviewProvider {
     static var previews: some View {
-        BackgroundView()
+        BackgroundView(image: Image("rockyMountains"))
     }
 }

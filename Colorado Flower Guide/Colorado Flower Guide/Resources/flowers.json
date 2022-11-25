@@ -2,10 +2,7 @@
     {
         "name": "Colorado Blue Columbine",
         "binomial": "Aquilegia coerulea",
-        "colors": ["Pale Blue", "White", "Yellow"],
-        "shapes": ["Star", "Buttercup"],
-        "states": ["Colorado", "Idaho", "Montana", "Wyoming", "New Mexico", "Utah"],
-        "smells": ["Honeysuckle"],
+        "description" : "The Colorado Blue Columbine is the Colorado State Flower. The flowers are very variable in color, from pale blue to white, pale yellow and pinkish; very commonly the flowers are bicolored, with the inner five petals a different color than the outer five petals. These flowers smell like honeysuckle and can be found in the Rocky Mountains during the summer time.",
         "id": 1001,
         "isFavorite": true,
         "imageName": "columbine",
@@ -15,27 +12,21 @@
     {
         "name": "Arrowleaf Balsamroot",
         "binomial": "Balsamorhiza sagittata",
-        "colors": ["Yellow", "Orange", "Brown"],
-        "shapes": ["Arrow"],
-        "states": ["Colorado", "Arizona", "California", "South Dakota"],
-        "smells": ["Chocolate", "Balsamroot"],
+        "description" : "The arrowleaf balsamroot plant’s sunny yellow flowers are a welcoming sign of spring. Arrowleaf balsamroot has leaves that are four inches wide, and less than a foot long. As the name suggests, these leaves are shaped like arrowheads. They smell like balsamroot and chocolate and can be found in cool, dry areas.",
         "id": 1002,
         "isFavorite": true,
-        "imageName": "arrowhead",
+        "imageName": "arrowleaf",
         "backgroundImageName": "blackHills"
     },
     
     {
         "name": "Blanketflower",
         "binomial": "Gaillardia",
-        "colors": ["Red", "Yellow", "Brown"],
-        "shapes": ["Arrow", "Trumpet"],
-        "states": ["Colorado", "Utah"],
-        "smells": ["Licorice", "Bubblegum"],
+        "description" : "The Blanketflower is named after brightly colored blankets made by Native Americans. It's red and yellow petals are quite eye catching. It grows in dry plains during the summertime in Colorado. It has a bitter sweet scent, like a combination of licorice and bubble gum.",
         "id": 1003,
         "isFavorite": true,
         "imageName": "blanketflower",
-        "backgroundImageName": "rockyMountains"
+        "backgroundImageName": "rockyPlains"
     }
 ]
 
