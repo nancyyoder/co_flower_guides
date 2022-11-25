@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		346B465329317FFE002721D0 /* FlowerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346B465229317FFE002721D0 /* FlowerListView.swift */; };
+		346B465529318104002721D0 /* FlowerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346B465429318104002721D0 /* FlowerDetailView.swift */; };
 		347E73C22925795700BCAF7D /* Colorado_Flower_GuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E73C12925795700BCAF7D /* Colorado_Flower_GuideApp.swift */; };
 		347E73C42925795700BCAF7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E73C32925795700BCAF7D /* ContentView.swift */; };
 		347E73C62925795B00BCAF7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 347E73C52925795B00BCAF7D /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		346B465229317FFE002721D0 /* FlowerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerListView.swift; sourceTree = "<group>"; };
+		346B465429318104002721D0 /* FlowerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerDetailView.swift; sourceTree = "<group>"; };
 		347E73BE2925795700BCAF7D /* Colorado Flower Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colorado Flower Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		347E73C12925795700BCAF7D /* Colorado_Flower_GuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorado_Flower_GuideApp.swift; sourceTree = "<group>"; };
 		347E73C32925795700BCAF7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 				347E73EB29257B7000BCAF7D /* ImageView.swift */,
 				347E73ED2925828800BCAF7D /* BackgroundView.swift */,
 				347E73F82925894400BCAF7D /* RowView.swift */,
+				346B465229317FFE002721D0 /* FlowerListView.swift */,
+				346B465429318104002721D0 /* FlowerDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -305,8 +311,10 @@
 				347E73F92925894400BCAF7D /* RowView.swift in Sources */,
 				347E73F0292585BA00BCAF7D /* Flower.swift in Sources */,
 				347E73EE2925828800BCAF7D /* BackgroundView.swift in Sources */,
+				346B465329317FFE002721D0 /* FlowerListView.swift in Sources */,
 				347E73C22925795700BCAF7D /* Colorado_Flower_GuideApp.swift in Sources */,
 				347E73F42925868200BCAF7D /* ModelData.swift in Sources */,
+				346B465529318104002721D0 /* FlowerDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
