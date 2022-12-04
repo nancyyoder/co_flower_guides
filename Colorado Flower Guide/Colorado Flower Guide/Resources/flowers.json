@@ -2,7 +2,7 @@
     {
         "name": "Colorado Blue Columbine",
         "binomial": "Aquilegia coerulea",
-        "description" : "The Colorado Blue Columbine is the Colorado State Flower. The flowers are very variable in color, from pale blue to white, pale yellow and pinkish; very commonly the flowers are bicolored, with the inner five petals a different color than the outer five petals. These flowers smell like honeysuckle and can be found in the Rocky Mountains during the summer time.",
+        "description" : "The Colorado Blue Columbine is the Colorado State Flower. The flowers are very variable in color, from pale blue to white, pale yellow and pinkish; very commonly the flowers are bicolored, with the inner five petals a different color than the outer five petals. These flowers smell like honeysuckle and can be found in the Rocky Mountains during the summer.",
         "id": 1001,
         "isFavorite": true,
         "imageName": "columbine",

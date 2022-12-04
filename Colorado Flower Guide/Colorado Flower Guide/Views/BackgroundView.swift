@@ -13,7 +13,7 @@ struct BackgroundView: View {
     var body: some View {
         image
             .resizable()
-            .frame(width: 360, height: 300)
+            .aspectRatio(contentMode: .fill)
     }
 }
 

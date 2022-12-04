@@ -11,31 +11,40 @@ struct FlowerDetailView: View {
     var flower: Flower
     
     var body: some View {
-        VStack{
-            
-            BackgroundView(image: flower.backgroundImage)
-                .frame(height: 100)
-            
-            ImageView(image: flower.image)
-                .offset(y: -110)
-                .padding(.bottom, -200.0)
-            
-            VStack(alignment: .leading){
+        ScrollView{
+            VStack{
                 
-                Spacer()
+                BackgroundView(image: flower.backgroundImage)
+                    .padding(.top, -55.0)
+                    .frame(
+                      minWidth: 0,
+                      maxWidth: .infinity,
+                      minHeight: 0,
+                      maxHeight: .infinity,
+                      alignment: .topLeading
+                    )
                 
-                Text(flower.name)
-                    .font(.title)
+                ImageView(image: flower.image)
+                    .padding(.vertical, -145.0)
                 
-                Text(flower.binomial)
-                    .font(.subheadline)
-                    .foregroundColor(.secondary)
-                
-                Divider()
-                
-                Text(flower.description)
-                
-            }.frame(width: 300.0)
+                VStack(alignment: .leading){
+                    
+                    Spacer()
+                    
+                    Text(flower.name)
+                        .font(.title)
+                    
+                    Text(flower.binomial)
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                    
+                    Divider()
+                    
+                    Text(flower.description)
+                    
+                }
+                .padding([.top, .leading], 3.0)
+            }
         }
     }
 }
