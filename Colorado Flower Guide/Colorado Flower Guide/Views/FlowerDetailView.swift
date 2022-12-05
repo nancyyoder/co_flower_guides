@@ -8,40 +8,58 @@
 import SwiftUI
 
 struct FlowerDetailView: View {
+    @EnvironmentObject var modelData: ModelData
     var flower: Flower
     
+    var flowerIndex: Int {
+        modelData.flowers.firstIndex(where: { $0.id == flower.id })!
+    }
+    
     var body: some View {
-        VStack{
-            
-            BackgroundView(image: flower.backgroundImage)
-                .frame(height: 100)
-            
-            ImageView(image: flower.image)
-                .offset(y: -110)
-                .padding(.bottom, -200.0)
-            
-            VStack(alignment: .leading){
+        ScrollView{
+            VStack{
+                BackgroundView(image: flower.backgroundImage)
+                    .padding(.top, -55.0)
+                    .frame(
+                      minWidth: 0,
+                      maxWidth: .infinity,
+                      minHeight: 0,
+                      maxHeight: .infinity,
+                      alignment: .topLeading
+                    )
                 
-                Spacer()
+                ImageView(image: flower.image)
+                    .padding(.vertical, -145.0)
                 
-                Text(flower.name)
-                    .font(.title)
-                
-                Text(flower.binomial)
-                    .font(.subheadline)
-                    .foregroundColor(.secondary)
-                
-                Divider()
-                
-                Text(flower.description)
-                
-            }.frame(width: 300.0)
+                VStack (alignment: .leading){
+                    
+                    Spacer()
+                    
+                    HStack{
+                        Text(flower.name)
+                            .font(.title)
+
+                        FavoriteButtonView(isSet: $modelData.flowers[flowerIndex].isFavorite)
+                    }
+                    
+                    Text(flower.binomial)
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                    
+                    Divider()
+                    
+                    Text(flower.description)
+                    
+                }
+                .padding([.top, .leading], 3.0)
+            }
         }
     }
 }
 
 struct FlowerDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        FlowerDetailView(flower: flowers[0])
+        FlowerDetailView(flower: ModelData().flowers[3])
+            .environmentObject(ModelData())
     }
 }

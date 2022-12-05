@@ -7,7 +7,9 @@
 
 import Foundation
 
-var flowers: [Flower] = load("flowers.json")
+final class ModelData: ObservableObject {
+    @Published var flowers: [Flower] = load("flowers.json")
+}
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

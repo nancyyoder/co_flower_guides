@@ -16,7 +16,13 @@ struct RowView: View {
                 .resizable()
                 .frame(width: 50, height: 50)
             Text(flower.name)
+            
             Spacer()
+            
+            if flower.isFavorite {
+                Image(systemName: "heart.fill")
+                    .foregroundColor(.pink)
+            }
         }
         
     }
@@ -24,11 +30,11 @@ struct RowView: View {
 
 struct RowView_Previews: PreviewProvider {
     static var previews: some View {
-        RowView(flower: flowers[0])
+        RowView(flower: ModelData().flowers[0])
             .previewLayout(.fixed(width: 300, height: 70))
-        RowView(flower: flowers[1])
+        RowView(flower: ModelData().flowers[1])
             .previewLayout(.fixed(width: 300, height: 70))
-        RowView(flower: flowers[2])
+        RowView(flower: ModelData().flowers[2])
             .previewLayout(.fixed(width: 300, height: 70))
     }
 }
