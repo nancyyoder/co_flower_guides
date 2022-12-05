@@ -22,6 +22,8 @@
 		347E73F22925860300BCAF7D /* flowers.json in Resources */ = {isa = PBXBuildFile; fileRef = 347E73F12925860300BCAF7D /* flowers.json */; };
 		347E73F42925868200BCAF7D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E73F32925868200BCAF7D /* ModelData.swift */; };
 		347E73F92925894400BCAF7D /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E73F82925894400BCAF7D /* RowView.swift */; };
+		34D254D6293E8BAE00DBDE6B /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D254D5293E8BAE00DBDE6B /* CoverView.swift */; };
+		34D254DC293E972B00DBDE6B /* FavoriteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D254DB293E972B00DBDE6B /* FavoriteButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		347E73F12925860300BCAF7D /* flowers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flowers.json; sourceTree = "<group>"; };
 		347E73F32925868200BCAF7D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		347E73F82925894400BCAF7D /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		34D254D5293E8BAE00DBDE6B /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
+		34D254DB293E972B00DBDE6B /* FavoriteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				347E73C32925795700BCAF7D /* ContentView.swift */,
+				34D254DB293E972B00DBDE6B /* FavoriteButtonView.swift */,
+				34D254D5293E8BAE00DBDE6B /* CoverView.swift */,
 				347E73EB29257B7000BCAF7D /* ImageView.swift */,
 				347E73ED2925828800BCAF7D /* BackgroundView.swift */,
 				347E73F82925894400BCAF7D /* RowView.swift */,
@@ -308,6 +314,7 @@
 			files = (
 				347E73EC29257B7000BCAF7D /* ImageView.swift in Sources */,
 				347E73C42925795700BCAF7D /* ContentView.swift in Sources */,
+				34D254DC293E972B00DBDE6B /* FavoriteButtonView.swift in Sources */,
 				347E73F92925894400BCAF7D /* RowView.swift in Sources */,
 				347E73F0292585BA00BCAF7D /* Flower.swift in Sources */,
 				347E73EE2925828800BCAF7D /* BackgroundView.swift in Sources */,
@@ -315,6 +322,7 @@
 				347E73C22925795700BCAF7D /* Colorado_Flower_GuideApp.swift in Sources */,
 				347E73F42925868200BCAF7D /* ModelData.swift in Sources */,
 				346B465529318104002721D0 /* FlowerDetailView.swift in Sources */,
+				34D254D6293E8BAE00DBDE6B /* CoverView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct FlowerDetailView: View {
+    @EnvironmentObject var modelData: ModelData
     var flower: Flower
+    
+    var flowerIndex: Int {
+        modelData.flowers.firstIndex(where: { $0.id == flower.id })!
+    }
     
     var body: some View {
         ScrollView{
             VStack{
-                
                 BackgroundView(image: flower.backgroundImage)
                     .padding(.top, -55.0)
                     .frame(
@@ -27,12 +31,16 @@ struct FlowerDetailView: View {
                 ImageView(image: flower.image)
                     .padding(.vertical, -145.0)
                 
-                VStack(alignment: .leading){
+                VStack (alignment: .leading){
                     
                     Spacer()
                     
-                    Text(flower.name)
-                        .font(.title)
+                    HStack{
+                        Text(flower.name)
+                            .font(.title)
+
+                        FavoriteButtonView(isSet: $modelData.flowers[flowerIndex].isFavorite)
+                    }
                     
                     Text(flower.binomial)
                         .font(.subheadline)
@@ -51,6 +59,7 @@ struct FlowerDetailView: View {
 
 struct FlowerDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        FlowerDetailView(flower: flowers[0])
+        FlowerDetailView(flower: ModelData().flowers[3])
+            .environmentObject(ModelData())
     }
 }

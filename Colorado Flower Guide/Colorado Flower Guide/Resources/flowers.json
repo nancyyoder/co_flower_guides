@@ -27,6 +27,42 @@
         "isFavorite": true,
         "imageName": "blanketflower",
         "backgroundImageName": "rockyPlains"
+    },
+    {
+        "name": "Bluebell",
+        "binomial": "Hyacinthoides",
+        "description" : "The bluebell is a herb that grows from a bulb. It has linear leaves and a flowering stem that grows up to 50 cm tall and droops to one side. The sweet-scented, nodding heads of flowers are bell-shaped and can be violet-blue and sometimes white or pastel pink.",
+        "id": 1004,
+        "isFavorite": true,
+        "imageName": "bluebell",
+        "backgroundImageName": "forest"
+    },
+    {
+        "name": "Elephant Head",
+        "binomial": "Pedicularis groenlandica",
+        "description" : "Shortly after snow melt, purplish, fern-like leaves come up through the grasses and sedges on whose roots this plant is parasitic. A little later, spikes to 18 in. carry showy clusters of pink-purple flowers. The individual flowers resemble an elephant’s face - the upper petals twisted and curled into a long snout.",
+        "id": 1005,
+        "isFavorite": true,
+        "imageName": "elephantHead",
+        "backgroundImageName": "elephantMountain"
+    },
+    {
+        "name": "Periwinkle",
+        "binomial": "Vinca Major",
+        "description" : "Periwinkle is an excellent evergreen groundcover with dark green foliage. Oblong to ovate leaves are opposite, simple, ½ to 2 inches long, glossy, with a short petiole. They exude a milky juice when broken. Flowers are purple, blue or white depending on the cultivar.",
+        "id": 1006,
+        "isFavorite": false,
+        "imageName": "periwinkle",
+        "backgroundImageName": "periOcean"
+    },
+    {
+        "name": "Scarlet Gilia",
+        "binomial": "Ipomopsis Aggregata",
+        "description" : "Scarlet Gilia, one of the most common western wildflowers, grows readily from seed; its brilliant red trumpets are handsome in the native garden. Its beauty compensates for its faint skunky smell, responsible for the less complimentary name Skunk Flower.",
+        "id": 1007,
+        "isFavorite": true,
+        "imageName": "scarlet",
+        "backgroundImageName": "planesRed"
     }
 ]
 

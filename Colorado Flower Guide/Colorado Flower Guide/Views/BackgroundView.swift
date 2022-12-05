@@ -13,12 +13,12 @@ struct BackgroundView: View {
     var body: some View {
         image
             .resizable()
-            .aspectRatio(contentMode: .fill)
+            .aspectRatio(contentMode: .fit)
     }
 }
 
 struct BackgroundView_Previews: PreviewProvider {
     static var previews: some View {
-        BackgroundView(image: Image("rockyMountains"))
+        BackgroundView(image: Image("forest"))
     }
 }
